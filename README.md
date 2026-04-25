@@ -18,12 +18,13 @@ This repository contains my trails for all three generative AI challenges, showc
 Take a "broken" image, repair it using a generative model, and apply a completely new artistic style. 
 
 * I utilized the **Fashion-MNIST** dataset to create a consistent pipeline.
-![Dataset selection](images/C1_1. Dataset selection.jpg)
+![Dataset selection](images/C1_1.Dataset_selection.jpg)
 * **Methodology:** I injected **Gaussian Noise (factor = 0.2)** to intentionally degrade the structural integrity of the clothing items and built a **Convolutional Autoencoder** using `Conv2D` and `UpSampling2D` layers to denoise the latent space.
 * The repaired image was fed into a **Neural Style Transfer** model (via TensorFlow Hub) using Van Gogh's *Starry Night* as the style reference.
 
 ### **Visual Results**
-![Final output 1](images/C1_4. final output.jpg)
+![Final output 1](images/C1_4.final_output.jpg)
+
 ---
 
 ## 👕 Challenge 2: AI Fashion Designer
@@ -35,8 +36,9 @@ Train a generative model on fashion data and explore the "latent space" through 
 * **The Process:** I performed **Latent Vector Interpolation** between two distinct items (a T-shirt and a coat) to mathematically calculate "in-between" designs.
 * **Tools:** Python, Keras, and Matplotlib were used for visualizing the vector arithmetic.
 
-### **Visual Result**
-![Final output 2](images/C2_Final output.jpg)
+### **Visual Results**
+![Final output 2](images/C2_Final_output.jpg)
+
 ---
 
 ## 💧 Challenge 3: AI Poster Designer
@@ -45,8 +47,8 @@ Use AI as a creative collaborator to design a high-impact poster for a fictional
 
 * **Concept:** **"The Human Recharge"** —  A campaign to encourage myself to drink water.
 * **Mood:** **Vibrant Tech-Thirst**. I used "Electric Blue" and "Crisp Cyan" and textures like water droplets to make hydration look like a premium tech feature rather than a chore.
-![gemini image](images/C3_Gemini Generated Pic_3.png)
+![gemini image](images/C3_Gemini_Generated_Pic_3.png)
 * **Workflow:** I used **Generative AI** to brainstorm surreal metaphors (like water galaxies and glowing auras) and then refined the best output into a cohesive final poster.
 
 ### **Visual Result**
-![Final poster](images/C3_Final poster.png)
+![Final poster](images/C3_Final_poster.png)
